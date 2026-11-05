@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta name="robots" content="noindex">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mauricio Moya — Development</title>
+<meta name="description" content="Mauricio Moya is an AI agent engineer. He builds agent skills and workflows for Claude Code, measures them with evals, hardens them for release and ships them end to end. Open to roles and consulting.">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+<link rel="canonical" href="https://maumoya.github.io/development/">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://maumoya.github.io/development/">
+<meta property="og:title" content="Mauricio Moya — AI agent engineer">
+<meta property="og:description" content="Agent skills that are measured, hardened and shipped. Open to roles and consulting.">
+<meta property="og:image" content="https://maumoya.github.io/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Mauricio Moya — AI agent engineer">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@mau_amt">
+<link rel="stylesheet" href="../style.css?v=bfa42b55">
+<script>if ("IntersectionObserver" in window) document.documentElement.classList.add("js");</script>
+</head>
+<body data-scene="base">
+<a class="skip" href="#main">Skip to content</a>
+<header class="nav">
+  <div class="wrap nav-in">
+    <a class="brand" href="../">Mauricio Moya</a>
+    <nav aria-label="Pages">
+      <a href="../development/" aria-current="page">Development</a>
+      <a href="../finance/">Finance</a>
+      <a href="../compliance/">Compliance</a>
+      <a href="../education/">Education</a>
+    </nav>
+  </div>
+</header>
+
+<nav class="rail" aria-label="Projects">
+  <a href="#adhd" data-for="adhd"><span>adhd-status</span></a>
+  <a href="#optim" data-for="optim"><span>resource-optimizer</span></a>
+  <a href="#forger" data-for="forger"><span>skill-forger-e2e</span></a>
+  <a href="#ghost" data-for="ghost"><span>LKND Ghost Text</span></a>
+  <a href="#bbv2" data-for="bbv2"><span>Boredom Blaster v2</span></a>
+  <a href="#bbv1" data-for="bbv1"><span>Boredom Blaster v1</span></a>
+</nav>
+
+<main id="main">
+  <section id="top" class="scene hero" data-scene="base">
+    <div class="wrap">
+      <p class="eyebrow fx" style="--i:0">Development · AI agents, automation, SaaS</p>
+      <h1 class="fx" style="--i:1">AI agents that ship.<br>Numbers that prove it.</h1>
+      <p class="lede fx" style="--i:2">I design agent skills and workflows for Claude Code, measure them with evals, harden them for release and ship them end to end.</p>
+      <p class="cta fx" style="--i:3">
+        <a class="btn" href="#hire">Work with me</a>
+        <a class="link" href="#work">See it run <span aria-hidden="true">›</span></a>
+      </p>
+    </div>
+    <a class="cue" href="#value" aria-label="Scroll to why me"><span aria-hidden="true"></span></a>
+  </section>
+
+  <section id="value" class="scene" data-scene="base" aria-labelledby="value-h">
+    <div class="wrap">
+      <h2 id="value-h" class="fx">What you get</h2>
+      <div class="pillars">
+        <article class="pillar fx">
+          <p class="num">2 skills</p>
+          <h3>Agent engineering</h3>
+          <p>Skills and workflows that agents load and follow, packaged as Claude Code plugins and a GitHub Action.</p>
+        </article>
+        <article class="pillar fx">
+          <p class="num"><!--fact:adhd_eval_with-->96%<!--/fact--> <small>vs <!--fact:adhd_eval_without-->50%<!--/fact--></small></p>
+          <h3>Measured results</h3>
+          <p>Evals come before claims. On <!--fact:adhd_eval_cases-->11<!--/fact--> status tests adhd-status scores <!--fact:adhd_eval_with-->96%<!--/fact-->; the same model without it scores <!--fact:adhd_eval_without-->50%<!--/fact-->. It also cuts spend per status by <!--fact:adhd_spend_less-->35%<!--/fact-->.</p>
+        </article>
+        <article class="pillar fx">
+          <p class="num">7.4 <small>Scorecard</small></p>
+          <h3>Security and trust</h3>
+          <p>Signed, verifiable releases and OpenSSF Scorecard on every repo. My own agent setup checks each tool call against a security policy before it runs.</p>
+        </article>
+        <article class="pillar fx">
+          <p class="num">100/100</p>
+          <h3>Ships end to end</h3>
+          <p>From idea to launch: docs, CI, releases and two live games anyone can play right now.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <div id="work">
+    <h2 class="sr-only">Work</h2>
+
+    <section id="adhd" class="scene project" data-scene="adhd" aria-labelledby="adhd-h">
+      <div class="wrap split">
+        <div class="copy">
+          <p class="eyebrow fx">Agent skill · Claude Code</p>
+          <h3 id="adhd-h" class="fx">adhd-status</h3>
+          <p class="tag fx">A wall of agent output becomes one next step.</p>
+          <p class="fx">Say STATUS and the agent sweeps the whole session, catches what was forgotten and answers with one small table and one action you can run.</p>
+          <dl class="stats fx">
+            <div><dt>score on <!--fact:adhd_eval_cases-->11<!--/fact--> status tests, vs <!--fact:adhd_eval_without-->50%<!--/fact--> without it</dt><dd><!--fact:adhd_eval_with-->96%<!--/fact--></dd></div>
+            <div><dt>spend per STATUS</dt><dd>−<!--fact:adhd_spend_less-->35%<!--/fact--></dd></div>
+          </dl>
+          <p class="links fx"><a class="btn" href="https://github.com/maumoya/adhd-status">View repo</a><a href="https://github.com/maumoya/adhd-status/releases">Releases <span aria-hidden="true">›</span></a></p>
+        </div>
+        <figure class="media fx-media">
+          <div class="screen wide">
+            <video muted loop playsinline preload="none" width="800" height="560" poster="../media/skill-adhd.jpg" aria-label="Demo: a long agent session, the user types STATUS, and the agent replies with a four-row table. The migration is the user's turn, the rate limit was forgotten, the signup form is in tests and the README fix is merged, followed by one button: npm run migrate.">
+              <source src="../media/skill-adhd.mp4" type="video/mp4">
+              <source src="../media/skill-adhd.webm" type="video/webm">
+            </video>
+            <button class="vbtn" type="button" aria-label="Play video" aria-pressed="false"></button>
+          </div>
+        </figure>
+      </div>
+    </section>
+
+    <section id="optim" class="scene project" data-scene="optim" aria-labelledby="optim-h">
+      <div class="wrap split rev">
+        <div class="copy">
+          <p class="eyebrow fx">Agent skill · Claude Code</p>
+          <h3 id="optim-h" class="fx">resource-optimizer</h3>
+          <p class="tag fx">A full disk, emptied without losing a thing.</p>
+          <p class="fx">It measures first, ranks what fills the disk with a plain "need it?" answer, and hands you one step at a time. Nothing is deleted without your OK.</p>
+          <dl class="stats fx">
+            <div><dt>of a <!--fact:ro_disk-->494 GB<!--/fact--> Mac mini disk freed: <!--fact:ro_freed_gb-->103.8 GB<!--/fact--> (free space <!--fact:ro_free_before-->4%<!--/fact--> → <!--fact:ro_free_after-->25%<!--/fact-->)</dt><dd><!--fact:ro_freed-->21%<!--/fact--></dd></div>
+            <div><dt>of deletes approved by you</dt><dd>100%</dd></div>
+          </dl>
+          <p class="links fx"><a class="btn" href="https://github.com/maumoya/resource-optimizer">View repo</a><a href="https://github.com/maumoya/resource-optimizer/releases">Releases <span aria-hidden="true">›</span></a></p>
+        </div>
+        <figure class="media fx-media">
+          <div class="screen wide">
+            <img src="../media/disk-cleanup.svg" width="800" height="560" loading="lazy" alt="Animation: free space on a 494 GB Mac mini goes from 19.6 GB (4%) to 123.3 GB (25%) as the agent clears caches, temp files, models, simulators, apps and Trash: 103.8 GB freed, 21% of the disk, every delete approved by the user.">
+          </div>
+        </figure>
+      </div>
+    </section>
+
+    <section id="forger" class="scene project" data-scene="forger" aria-labelledby="forger-h">
+      <div class="wrap split">
+        <div class="copy">
+          <p class="eyebrow fx">Agent skill · GitHub Action</p>
+          <h3 id="forger-h" class="fx">skill-forger-e2e</h3>
+          <p class="tag fx">Write the skill. Ship it right.</p>
+          <p class="fx">Scaffold, lint, evals, signed releases and launch. Its readiness check scores any skill repo on 21 points, and runs in CI as a GitHub Action.</p>
+          <dl class="stats fx">
+            <div><dt>readiness, its own repo</dt><dd>100/100</dd></div>
+            <div><dt>checks per run</dt><dd>21</dd></div>
+          </dl>
+          <p class="links fx"><a class="btn" href="https://github.com/maumoya/skill-forger-e2e">View repo</a><a href="https://github.com/maumoya/skill-forger-e2e/releases">Releases <span aria-hidden="true">›</span></a></p>
+        </div>
+        <figure class="media fx-media">
+          <div class="screen wide">
+            <video muted loop playsinline preload="none" width="800" height="560" poster="../media/skill-forger.jpg" aria-label="Demo: readiness.sh runs on the skill-forger-e2e repo, passes all 21 checks and prints SCORE 100/100 with a readiness badge.">
+              <source src="../media/skill-forger.mp4" type="video/mp4">
+              <source src="../media/skill-forger.webm" type="video/webm">
+            </video>
+            <button class="vbtn" type="button" aria-label="Play video" aria-pressed="false"></button>
+          </div>
+        </figure>
+      </div>
+    </section>
+    <section id="ghost" class="scene project" data-scene="ghost" aria-labelledby="ghost-h">
+      <div class="wrap split">
+        <div class="copy">
+          <p class="eyebrow fx">Creativity · plug-in development</p>
+          <h3 id="ghost-h" class="fx">LKND Ghost Text</h3>
+          <p class="tag fx">Build on top of what already works.</p>
+          <p class="fx">A playful experiment with a serious method: find the gap in a product that already works and add the feature with a small, tested plug-in. Here, LinkedIn messages that self-destruct into 💬💣💨. The same approach fits any tool your team uses: CRM, ERP, support desk, internal portal.</p>
+          <dl class="stats fx">
+            <div><dt>automated tests</dt><dd>73</dd></div>
+            <div><dt>network calls</dt><dd>0</dd></div>
+          </dl>
+          <p class="links fx"><a class="btn" href="https://github.com/maumoya/LKND-ghost-text">View repo</a><a href="https://github.com/maumoya/LKND-ghost-text/releases">Releases <span aria-hidden="true">›</span></a></p>
+        </div>
+        <figure class="media fx-media">
+          <div class="screen wide">
+            <video muted loop playsinline preload="none" width="800" height="560" poster="../media/ghost-text.jpg" aria-label="Animation: type a message, click the bomb, pick 20 seconds; the message goes out with a self-destruct line and a countdown ring, and at zero it turns into 💬💣💨 (Edited).">
+              <source src="../media/ghost-text.mp4" type="video/mp4">
+              <source src="../media/ghost-text.webm" type="video/webm">
+            </video>
+            <button class="vbtn" type="button" aria-label="Play video" aria-pressed="false"></button>
+          </div>
+        </figure>
+      </div>
+    </section>
+
+    <section id="bbv2" class="scene project" data-scene="bbv2" aria-labelledby="bbv2-h">
+      <div class="wrap split rev">
+        <div class="copy">
+          <p class="eyebrow fx">Browser game</p>
+          <h3 id="bbv2-h" class="fx">Boredom Blaster v2</h3>
+          <p class="tag fx">Five worlds. 500 waves. World bosses.</p>
+          <p class="fx">A space shooter with power-ups, gamepad support and anti-cheat global scores. Plain JavaScript and canvas, no engine, no login.</p>
+          <dl class="stats fx">
+            <div><dt>worlds, a boss every 100 waves</dt><dd>5</dd></div>
+            <div><dt>game engines</dt><dd>0</dd></div>
+          </dl>
+          <p class="links fx"><a class="btn" href="https://maumoya.github.io/boredom-blaster-v2/">Play now</a><a href="https://github.com/maumoya/boredom-blaster-v2">Repo <span aria-hidden="true">›</span></a></p>
+        </div>
+        <figure class="media fx-media">
+          <div class="screen">
+            <video muted loop playsinline preload="none" width="480" height="640" poster="../media/blaster-v2.jpg" aria-label="Boredom Blaster v2 gameplay: a fully upgraded ship moving in all directions, then a new record and the top-10 table.">
+              <source src="../media/blaster-v2.mp4" type="video/mp4">
+              <source src="../media/blaster-v2.webm" type="video/webm">
+            </video>
+            <button class="vbtn" type="button" aria-label="Play video" aria-pressed="false"></button>
+          </div>
+        </figure>
+      </div>
+    </section>
+
+    <section id="bbv1" class="scene project" data-scene="bbv1" aria-labelledby="bbv1-h">
+      <div class="wrap split">
+        <div class="copy">
+          <p class="eyebrow fx">Browser game · the original</p>
+          <h3 id="bbv1-h" class="fx">Boredom Blaster v1</h3>
+          <p class="tag fx">A whole game in one file.</p>
+          <p class="fx">The retro space shooter that started it, for short breaks on Mac or phone.</p>
+          <dl class="stats fx">
+            <div><dt>the whole game, one HTML file</dt><dd><!--fact:bb1_size_kb-->13.6 KB<!--/fact--></dd></div>
+          </dl>
+          <p class="links fx"><a class="btn" href="https://maumoya.github.io/boredom-blaster-play/">Play now</a><a href="https://github.com/maumoya/boredom-blaster-play">Repo <span aria-hidden="true">›</span></a></p>
+        </div>
+        <figure class="media fx-media">
+          <div class="screen">
+            <video muted loop playsinline preload="none" width="480" height="640" poster="../media/blaster-v1.jpg" aria-label="Boredom Blaster v1 gameplay through the first three waves.">
+              <source src="../media/blaster-v1.mp4" type="video/mp4">
+              <source src="../media/blaster-v1.webm" type="video/webm">
+            </video>
+            <button class="vbtn" type="button" aria-label="Play video" aria-pressed="false"></button>
+          </div>
+        </figure>
+      </div>
+    </section>
+  </div>
+
+  <section id="services" class="scene" data-scene="base" aria-labelledby="services-h">
+    <div class="wrap">
+      <h2 id="services-h" class="fx">What I build</h2>
+      <div class="offers">
+        <article class="offer fx">
+          <p class="eyebrow">Automation</p>
+          <h3>Manual steps, automated</h3>
+          <p>Spreadsheet routines and copy-paste steps turned into scheduled workflows with checks, so people stop doing a machine's job.</p>
+        </article>
+        <article class="offer fx">
+          <p class="eyebrow">Data</p>
+          <h3>One source of truth</h3>
+          <p>Accounting, payroll, CRM and grant data consolidated into one data lake, with dashboards built for your questions, not a template.</p>
+        </article>
+        <article class="offer fx">
+          <p class="eyebrow">Software</p>
+          <h3>SaaS and internal tools</h3>
+          <p>Small web apps and AI agents built end to end, with tests, CI and signed releases.</p>
+        </article>
+        <article class="offer fx">
+          <p class="eyebrow">Cleanup</p>
+          <h3>Fewer tools, fewer gaps</h3>
+          <p>Duplicate tools, data copies and access gaps removed, so there is less to pay for and less to break into.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="proof" class="scene a-dev" data-scene="base" aria-labelledby="proof-h">
+    <div class="wrap">
+      <h2 id="proof-h" class="fx">Proof</h2>
+      <div class="pillars">
+        <article class="pillar fx">
+          <p class="num">16h → 3h</p>
+          <h3>Payroll planning</h3>
+          <p>Payroll allocation planning at a multi-program nonprofit, automated with grant-balance checks built in.</p>
+        </article>
+        <article class="pillar fx">
+          <p class="num">−70%</p>
+          <h3>Ticket resolution time</h3>
+          <p>A cross-functional ticketing system I designed at Ransa; maintenance cost fell about 20%.</p>
+        </article>
+        <article class="pillar fx">
+          <p class="num">−30%</p>
+          <h3>AR and AP cycle</h3>
+          <p>A redesigned payment process and an Excel CRM and quote tool at Gestiona365.</p>
+        </article>
+        <article class="pillar fx">
+          <p class="num"><!--fact:adhd_eval_with-->96%<!--/fact--> <small>vs <!--fact:adhd_eval_without-->50%<!--/fact--></small></p>
+          <h3>Measured agents</h3>
+          <p>adhd-status, my open-source agent skill, scores <!--fact:adhd_eval_with-->96%<!--/fact--> on <!--fact:adhd_eval_cases-->11<!--/fact--> status tests; the same model without it scores <!--fact:adhd_eval_without-->50%<!--/fact-->.</p>
+        </article>
+      </div>
+      <p class="stack fx">Python · SQL · Power BI · Tableau · Excel · JavaScript · GitHub Actions · Claude Code · Codex · Cloudflare</p>
+    </div>
+  </section>
+
+
+  <section id="hire" class="scene" data-scene="base" aria-labelledby="hire-h">
+    <div class="wrap">
+      <h2 id="hire-h" class="fx">Ways to work together</h2>
+      <div class="offers">
+        <article class="offer fx">
+          <p class="eyebrow">Hiring</p>
+          <h3>AI agent engineer</h3>
+          <p>Full-time or contract roles on AI agents, developer tools and automation, remote or from Vermont, USA.</p>
+        </article>
+        <article class="offer fx">
+          <p class="eyebrow">Consulting</p>
+          <h3>Agent workflow audit</h3>
+          <p>I review how your team uses coding agents, measure where time and spend go, and hand back a short, ranked fix list.</p>
+        </article>
+        <article class="offer fx">
+          <p class="eyebrow">Consulting</p>
+          <h3>Custom skills, hardened</h3>
+          <p>Agent skills built for your workflow, with evals, signed releases and security checks, ready for your team to install.</p>
+        </article>
+      </div>
+      <p class="cta-row fx"><a class="btn" href="https://www.linkedin.com/in/mba-mmoyat/">Message me on LinkedIn</a><a href="#contact">Other ways to reach me <span aria-hidden="true">›</span></a></p>
+    </div>
+  </section>
+
+  <section id="data" class="scene" data-scene="base" aria-labelledby="data-h">
+    <div class="wrap">
+      <p class="eyebrow fx">Before agents</p>
+      <h2 id="data-h" class="fx">Earlier data work</h2>
+      <div class="grid">
+        <a class="card fx" href="https://github.com/maumoya/House-Rental-Pricing-Prediction">
+          <h3>House rental price prediction</h3>
+          <p>A regression model that estimates rental prices from listing features.</p>
+          <span class="more">Repo <span aria-hidden="true">›</span></span>
+        </a>
+        <a class="card fx" href="https://github.com/maumoya/datacamp_solutions">
+          <h3>DataCamp solutions</h3>
+          <p>Worked solutions from data science and analysis courses.</p>
+          <span class="more">Repo <span aria-hidden="true">›</span></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="scene" data-scene="base" aria-labelledby="contact-h">
+    <div class="wrap narrow">
+      <h2 id="contact-h" class="fx">Let's talk</h2>
+      <p class="big fx">Tell me what your agents should do. I'll tell you how I'd build it, test it and prove it works.</p>
+      <ul class="contact fx">
+        <li><a href="https://www.linkedin.com/in/mba-mmoyat/">LinkedIn <span>mba-mmoyat</span></a></li>
+        <li><a href="https://x.com/mau_amt">X <span>@mau_amt</span></a></li>
+        <li><a href="https://github.com/maumoya">GitHub <span>maumoya</span></a></li>
+        <li><a href="https://www.youtube.com/@maumoya85">YouTube <span>@maumoya85</span></a></li>
+      </ul>
+      <p class="cta-row fx"><a href="../">All four areas <span aria-hidden="true">›</span></a></p>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap foot">
+  <p>© 2026 Mauricio Moya · Open source under MIT · No tracking, no cookies.</p>
+</footer>
+<script src="../app.js?v=a5512eeb" defer></script>
+</body>
+</html>

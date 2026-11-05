@@ -1,0 +1,62 @@
+{
+ "adhd_eval_with": {
+  "value": "96%",
+  "source": "launch/facts.json of maumoya/adhd-status",
+  "date": "2026-11-03",
+  "from": "maumoya/adhd-status#eval_with|pct"
+ },
+ "adhd_eval_without": {
+  "value": "50%",
+  "source": "launch/facts.json of maumoya/adhd-status",
+  "date": "2026-11-03",
+  "from": "maumoya/adhd-status#eval_without|pct"
+ },
+ "adhd_spend_less": {
+  "value": "35%",
+  "source": "launch/facts.json of maumoya/adhd-status",
+  "date": "2026-11-03",
+  "from": "maumoya/adhd-status#spend_less"
+ },
+ "adhd_eval_cases": {
+  "value": "11",
+  "source": "launch/facts.json of maumoya/adhd-status",
+  "date": "2026-11-03",
+  "from": "maumoya/adhd-status#eval_cases"
+ },
+ "ro_disk": {
+  "value": "494 GB",
+  "source": "launch/facts.json of maumoya/resource-optimizer",
+  "date": "2026-11-03",
+  "from": "maumoya/resource-optimizer#disk_size"
+ },
+ "ro_freed_gb": {
+  "value": "103.8 GB",
+  "source": "launch/facts.json of maumoya/resource-optimizer",
+  "date": "2026-11-03",
+  "from": "maumoya/resource-optimizer#freed_gb"
+ },
+ "ro_free_before": {
+  "value": "4%",
+  "source": "launch/facts.json of maumoya/resource-optimizer",
+  "date": "2026-11-03",
+  "from": "maumoya/resource-optimizer#free_before_pct"
+ },
+ "ro_free_after": {
+  "value": "25%",
+  "source": "launch/facts.json of maumoya/resource-optimizer",
+  "date": "2026-11-03",
+  "from": "maumoya/resource-optimizer#free_after_pct"
+ },
+ "ro_freed": {
+  "value": "21%",
+  "source": "launch/facts.json of maumoya/resource-optimizer",
+  "date": "2026-11-03",
+  "from": "maumoya/resource-optimizer#freed_pct"
+ },
+ "bb1_size_kb": {
+  "value": "13.6 KB",
+  "source": "launch/facts.json of maumoya/boredom-blaster-play",
+  "date": "2026-11-03",
+  "from": "maumoya/boredom-blaster-play#size_kb"
+ }
+}

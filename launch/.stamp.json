@@ -1,0 +1,15 @@
+{
+ "assets": {},
+ "facts": {
+  "adhd_eval_cases": "11",
+  "adhd_eval_with": "96%",
+  "adhd_eval_without": "50%",
+  "adhd_spend_less": "35%",
+  "bb1_size_kb": "13.6 KB",
+  "ro_disk": "494 GB",
+  "ro_free_after": "25%",
+  "ro_free_before": "4%",
+  "ro_freed": "21%",
+  "ro_freed_gb": "103.8 GB"
+ }
+}
